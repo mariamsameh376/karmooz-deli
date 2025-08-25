@@ -43,7 +43,7 @@ export default function ContactForm() {
   };
 
   return (
-    <section className="bg-black text-white py-16 px-4">
+    <section className="[#FAF3E0] text-black py-16 px-4">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-4xl font-impact tracking-wide mb-2">CONTACT US</h2>
         <div className="flex justify-center mb-4">
@@ -56,8 +56,8 @@ export default function ContactForm() {
           {/* Contact Info */}
           <div className="text-left space-y-4">
             <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
-            <p><span className="font-semibold">Address: </span>123 Street, City</p>
-            <p><span className="font-semibold">Phone: </span>+1 234 567 890</p>
+            <p><span className="font-semibold">Address: </span>614 18th Ave N,Nashville,TN 37203</p>
+            <p><span className="font-semibold">Phone: </span>(615) 810 2558</p>
           </div>
 
           {/* Contact Form */}

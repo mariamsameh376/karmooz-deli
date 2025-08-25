@@ -10,7 +10,8 @@ import {
   HiShoppingCart,
   HiKey,
   HiMenu,
-  HiX
+  HiX,
+  HiInformationCircle 
 } from "react-icons/hi";
 
 const Navbar = () => {
@@ -45,10 +46,10 @@ const Navbar = () => {
                 />
               </NavLink>
 
-              <div className='flex flex-col items-center relative m1-2 max-w-[160px] md:max-w-[200px] 1g:max-w-none'>
+              <NavLink to="/" className="flex flex-col items-center relative ml-2 max-w-[160px] md:max-w-[200px] lg:max-w-none z-10">
                 <span className='text-[#221101] font-[Impact] text-xl md:text-2xl lg:text-3xl tracking-wide'>KARMOOZ</span>
                 <span className='text-[#221101] font-[Montserrat] text-xs md:text-sm lg:text-base -mt-1 tracking-wide'>DELL</span>
-              </div>
+                </NavLink>
             </div>
 
             {/* Desktop Links */}
@@ -66,19 +67,17 @@ const Navbar = () => {
                 Contact
               </NavLink>
               <NavLink to="/about" className={({ isActive }) => `flex items-center gap-2 px-4 py-2 rounded-full transition ${isActive ? 'bg-[#79411A]/20 text-[#F9B93E]' : 'hover:text-[#F9B93E]'}`}>
-                <HiPhone className="text-[#F9B93E]" />
+                <HiInformationCircle className="text-[#F9B93E]" />
                 About Us
               </NavLink>
 
-              <a
-                href="/order"
-                target="_blank"
-                rel="noopener noreferrer"
+               <NavLink
+  to="/order"
                 className="flex items-center gap-2 bg-gradient-to-r from-[#DD8E3E] to-[#F9B93E] text-black px-5 py-2 rounded-full shadow-lg hover:scale-105 transition"
               >
-                <GiForkKnifeSpoon />
-                Order Online
-              </a>
+               <GiForkKnifeSpoon />
+  Order Online
+</NavLink>
             </div>
 
             {/* Mobile Menu Button */}
@@ -105,13 +104,12 @@ const Navbar = () => {
                 Contact
               </NavLink>
               <NavLink to="/about" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center gap-2">
-                <HiPhone className="text-[#F9B93E]" />
+                <HiInformationCircle className="text-[#F9B93E]" />
                 About Us
               </NavLink>
               <a
                 href="/order"
-                target="_blank"
-                rel="noopener noreferrer"
+                
                 className="flex items-center gap-2 bg-gradient-to-r from-[#DD8E3E] to-[#F9B93E] text-black px-5 py-2 rounded-full shadow-lg hover:scale-105 transition"
               >
                 <GiForkKnifeSpoon />

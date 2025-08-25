@@ -10,7 +10,7 @@ const Banner = () => {
        className="h-screen px-4 sm:px-12 relative overflow-hidden flex items-center"
 
         style={{
-          backgroundImage: 'url(/assets/banner-bg-2800x2304.jpg)',
+          backgroundImage: 'url(/assets/KarmoozDeli_Hero_2880x2304.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

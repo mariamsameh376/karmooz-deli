@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import DeliveryModal from "../components/DeliveryModal";
-
+import { Link } from "react-router-dom";
 
 export default function OrderType() {
   const navigate = useNavigate();
@@ -19,9 +19,10 @@ export default function OrderType() {
     <div className="bg-gray-100 min-h-screen">
       {/* 🔲 Black Bar */}
       <div className="bg-black text-white px-6 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold tracking-wide">Karmooz Deki</div>
-
-      </div>
+  <Link to="/" className="text-2xl font-bold tracking-wide">
+   Karmooz Deli
+  </Link>
+</div>
 
       {/* 🖼️ Hero Image */}
       <div className="relative">
@@ -52,20 +53,24 @@ export default function OrderType() {
             <h2 className="text-xl font-bold text-gray-800 mb-2">Order Online</h2>
             <p className="text-gray-600 mb-6">Choose how you’d like to get your food.</p>
 
-            <div className="space-y-4">
-              <button
-                onClick={handlePickUp}
-                className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-4 rounded"
-              >
-                Pick Up
-              </button>
-              <button
-                onClick={handleDelivery}
-                className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-4 rounded"
-              >
-                Delivery
-              </button>
-            </div>
+            <a
+  href="https://midtownfoodsnsh.com/s/karmooz-deli/614-18th-ave-n-nashville/a2d2b0a6-e684-4ff1-91bb-ee960dde2143
+"
+  target="_blank"     // يفتح في تبويب جديد
+  rel="noopener noreferrer"
+  className="w-full block text-center bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-4 rounded"
+>
+  Pick Up
+</a>
+<a
+  href="https://www.ubereats.com/store/karmooz-deli/6aROvhgZXwq9jMs6OIIwPA?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMk5hc2h2aWxsZSUyMEFpcnBvcnQlMjBNYXJyaW90dCUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMjgwZGJlNDAxLWI1YzItM2Q5ZS04OWQ5LTA4NGJhZDY1MWI3ZiUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJ1YmVyX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBMzYuMTUzOTQxJTJDJTIybG9uZ2l0dWRlJTIyJTNBLTg2LjY5MDIzMiU3RA%3D%3D&utm_source=menu-maker"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full block text-center bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-4 rounded"
+>
+  Delivery
+</a>
+
 
             {/* ✅ Delivery Modal */}
             <DeliveryModal
@@ -89,7 +94,7 @@ export default function OrderType() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Item 1 */}
           <div className="bg-white rounded-lg shadow p-4">
-            <h4 className="text-lg font-semibold">SSMOKED SUPREME</h4>
+            <h4 className="text-lg font-semibold">SMOKED SUPREME</h4>
             <p className="text-sm text-gray-600">
             Pepperoni, Mortadella, Turkey, Tomatoes, Green pepper, Olives, Ricotta, Mozzarella.
             </p>

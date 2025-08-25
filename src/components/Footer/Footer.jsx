@@ -15,16 +15,29 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10 text-sm relative z-10">
         {/* About */}
         <div>
-          <h2 className="text-[#221101] font-semibold mb-4 tracking-wide text-lg">ABOUT KARMOOZ DEIL</h2>
+          <h2 className="text-[#221101] font-semibold mb-4 tracking-wide text-lg">Social</h2>
 
-          <div className="flex gap-3 mt-5">
-            {[FaFacebookF, FaInstagram].map((Icon, index) => (
-              <div key={index} className="bg-[#221101] text-[#F9B93E] p-2 rounded-full hover:bg-[#F9B93E] hover:text-[#221101] transition">
-                <Icon />
-              </div>
-            ))}
-          </div>
-        </div>
+
+        <div className="flex gap-4 mt-6">
+  <a
+    href="https://www.facebook.com/share/1CF6CND74n/?mibextid=wwXIfr
+"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#221101] text-[#F9B93E] p-2 rounded-full hover:bg-[#F9B93E] hover:text-[#221101] transition"
+  >
+    <FaFacebookF />
+  </a>
+  <a
+    href="https://www.instagram.com/karmoozdeli?igsh=MXBneHo4a2x6dmEyYg%3D%3D&utm_source=qr"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#221101] text-[#F9B93E] p-2 rounded-full hover:bg-[#F9B93E] hover:text-[#221101] transition"
+  >
+    <FaInstagram />
+  </a>
+</div>
+            </div>
 
         {/* Logo */}
         <div className="flex flex-col items-center justify-center text-center relative group">

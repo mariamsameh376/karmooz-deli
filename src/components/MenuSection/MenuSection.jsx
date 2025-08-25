@@ -5,18 +5,18 @@ const MenuSection = () => {
   const egyptianDishes = [
     {
       name: "ALEXANDRIAN HAWAWSHI",
-      image: "/assets/hauwashi-rte.png",
+      image: "/assets/KarmoozDeli_AlexandrianHawawshiFold_2880x2304.jpg",
       price: "$15.99"
     },
     {
-      name: "BABA GHANOUJ",
-      image: "/assets/food3.png",
-      price: "$5.99"
+      name: "MEDITERRANEAN MORTADELLA SANDWICH",
+      image: "/assets/KarmoozDeli_MediterraneanMortadellaSandwich_2880x2304.jpg",
+      price: "$18.99/11.99"
     },
     {
-      name: "CHICKEN SHESH",
-      image: "/assets/food6.png",
-      price: "$14.99"
+      name: "BASBUSA",
+      image: "/assets/هريسه.jpg",
+      price: "$6.99"
     }
 
   ];
@@ -24,7 +24,7 @@ const MenuSection = () => {
   return (
     <div className="font-sans max-w-7xl mx-auto px-4 py-12">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold mb-4">HOT EGYPTIAN MEALS</h2>
+        <h2 className="text-3xl font-bold mb-4">Fresh Mediterranean Meals</h2>
         <p className="text-lg max-w-2xl mx-auto">
           We've got you covered with authentic flavors.
         </p>
