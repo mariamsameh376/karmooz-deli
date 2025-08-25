@@ -21,7 +21,7 @@ export default function ContactForm() {
     setStatus("Sending...");
 
     try {
-      const res = await fetch("http://localhost:5000", {
+      const res = await fetch("https://karmooz-backend.vercel.app/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
