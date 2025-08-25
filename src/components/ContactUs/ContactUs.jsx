@@ -69,7 +69,7 @@ export default function ContactForm() {
                 placeholder="Your Name"
                 value={formData.name}
                 onChange={handleChange}
-                className="bg-transparent border-b-2 border-[#d99058] text-white placeholder-gray-400 focus:outline-none py-2"
+                className="bg-transparent border-b-2 border-[#d99058] text-black placeholder-gray-400 focus:outline-none py-2"
                 required
               />
               <input
@@ -78,7 +78,7 @@ export default function ContactForm() {
                 placeholder="Your Email"
                 value={formData.email}
                 onChange={handleChange}
-                className="bg-transparent border-b-2 border-[#d99058] text-white placeholder-gray-400 focus:outline-none py-2"
+                className="bg-transparent border-b-2 border-[#d99058] text-black placeholder-gray-400 focus:outline-none py-2"
                 required
               />
             </div>
@@ -88,7 +88,7 @@ export default function ContactForm() {
               placeholder="Subject"
               value={formData.subject}
               onChange={handleChange}
-              className="w-full bg-transparent border-b-2 border-[#d99058] text-white placeholder-gray-400 focus:outline-none py-2"
+              className="w-full bg-transparent border-b-2 border-[#d99058] text-black placeholder-gray-400 focus:outline-none py-2"
               required
             />
             <textarea
@@ -97,7 +97,7 @@ export default function ContactForm() {
               rows="4"
               value={formData.message}
               onChange={handleChange}
-              className="w-full bg-transparent border-b-2 border-[#d99058] text-white placeholder-gray-400 focus:outline-none py-2"
+              className="w-full bg-transparent border-b-2 border-[#d99058] text-black placeholder-gray-400 focus:outline-none py-2"
               required
             />
             <button
