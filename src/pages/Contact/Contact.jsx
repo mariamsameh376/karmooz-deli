@@ -1,17 +1,18 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'; // المسار حسب مكان Navbar فعليًا
-import Footer from '../../components/Footer/Footer'; // نفس الشيء
-import ContactComponent from '../../components/ContactUs/ContactUs';
+import Navbar from '../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
+import ContactComponent from '../../components/ContactUs/ContactUs'
 
 const Contact = () => {
-    return (
-        <>
-        <Navbar/>
+  return (
+    <>
+      <Navbar />
+      <div className="pt-[100px]">   {/* padding-top عشان يسيب مساحة للناف بار */}
         <ContactComponent />
-        <Footer/>
-        </>
-       )
-     }
-     
+        <Footer />
+      </div>
+    </>
+  )
+}
 
 export default Contact

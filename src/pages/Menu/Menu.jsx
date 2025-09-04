@@ -1,17 +1,18 @@
 import React from 'react'
 import MenuDate from '../../components/MenuDate/MenuDate'
-import Navbar from '../../components/Navbar/Navbar'; // المسار حسب مكان Navbar فعليًا
-import Footer from '../../components/Footer/Footer'; // نفس الشيء
+import Navbar from '../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
 
-const Menu= () => {
+const Menu = () => {
   return (
-   <>
-   <Navbar/>
-   <MenuDate/>
-   <Footer/>
-   </>
+    <>
+      <Navbar />
+      <div className="pt-[100px]">  {/* عشان المحتوى ما يختفيش تحت الناف بار */}
+        <MenuDate />
+        <Footer />
+      </div>
+    </>
   )
 }
-
 
 export default Menu

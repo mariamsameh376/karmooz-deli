@@ -54,7 +54,7 @@ export default function OrderType() {
             <p className="text-gray-600 mb-6">Choose how you’d like to get your food.</p>
 
             <a
-  href="https://midtownfoodsnsh.com/s/karmooz-deli/614-18th-ave-n-nashville/a2d2b0a6-e684-4ff1-91bb-ee960dde2143
+  href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3221.1938153400642!2d-86.802389!3d36.161838!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886467674f9e6a91%3A0x9ed36a27636760ad!2sMidtown%20Foods!5e0!3m2!1sar!2sus!4v1756986028582!5m2!1sar!2sus
 "
   target="_blank"     // يفتح في تبويب جديد
   rel="noopener noreferrer"
@@ -94,6 +94,11 @@ export default function OrderType() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Item 1 */}
           <div className="bg-white rounded-lg shadow p-4">
+          <img
+        src="/assets/KarmoozDeli_SmokedSupremeFold_2880x2304.jpg"
+        alt="SMOKED SUPREME"
+        className="w-full h-40 object-cover rounded-md mb-3"
+      />
             <h4 className="text-lg font-semibold">SMOKED SUPREME</h4>
             <p className="text-sm text-gray-600">
             Pepperoni, Mortadella, Turkey, Tomatoes, Green pepper, Olives, Ricotta, Mozzarella.
@@ -103,6 +108,11 @@ export default function OrderType() {
 
           {/* Item 2 */}
           <div className="bg-white rounded-lg shadow p-4">
+          <img
+        src="/assets/KarmoozDeli_AlexandrianHawawshiFold_2880x2304.jpg"
+        alt="ALEXANDRIAN HAWAWSHIh"
+        className="w-full h-40 object-cover rounded-md mb-3"
+      />
             <h4 className="text-lg font-semibold">ALEXANDRIAN HAWAWSHIh</h4>
             <p className="text-sm text-gray-600">
             Ground beef and Lamb Mix, Mozzarella.
@@ -112,6 +122,11 @@ export default function OrderType() {
 
           {/* Item 3 */}
           <div className="bg-white rounded-lg shadow p-4">
+          <img
+        src="/assets/KarmoozDeli_TheDuoFold_2880x2304.jpg"
+        alt="THE DUO"
+        className="w-full h-40 object-cover rounded-md mb-3"
+      />
             <h4 className="text-lg font-semibold">THE DUO</h4>
             <p className="text-sm text-gray-600">
             Pastrami, Sogo’, Tomatoes, Green pepper, Olives, Ricotta, Mozzarella.

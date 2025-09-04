@@ -42,12 +42,10 @@ const Footer = () => {
         {/* Logo */}
         <div className="flex flex-col items-center justify-center text-center relative group">
           <div className="absolute -inset-4 bg-[#F9B93E]/10 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-          <img src="/logo.png" alt="Karmooz Deli Logo" className="w-40 object-contain mb-2 hover:rotate-3 transition" />
+          <img src="/logo.png" alt="Karmooz Deli Logo" className="w-60 object-contain mb-1 hover:rotate-3 transition" />
           <h3 className="text-3xl text-[#221101] font-[Impact] tracking-wide">KARMOOZ</h3>
-          <p className="text-xl text-[#221101] font-[Montserrat] -mt-1 tracking-wide">DEIL</p>
-          <button className="mt-4 bg-gradient-to-r from-[#DD8E3E] to-[#F9B93E] text-black px-5 py-2 rounded-full shadow-md hover:scale-105 transition font-semibold">
-            Order Online
-          </button>
+          <p className="text-xl text-[#221101] font-[Montserrat] -mt-1 tracking-wide">DELI</p>
+
         </div>
 
         {/* Contact Info */}

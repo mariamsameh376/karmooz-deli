@@ -8,10 +8,11 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <Banner/>
-      <MenuSection/>
-      <Footer/>
-    
+      <div className="pt-[100px]">   {/* padding-top عشان نسيب مكان للناف بار */}
+        <Banner />
+        <MenuSection />
+        <Footer />
+      </div>
     </>
   )
 }

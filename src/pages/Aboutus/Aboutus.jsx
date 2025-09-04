@@ -1,18 +1,18 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'; // المسار حسب مكان Navbar فعليًا
-import Footer from '../../components/Footer/Footer'; // نفس الشيء
-import ContactUs from'../../components/About/About';
-import About from '../../components/About/About';
+import Navbar from '../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
+import About from '../../components/About/About'
 
 const Aboutus = () => {
-    return (
-        <>
-        <Navbar/>
-        <About/>
-        <Footer/>
-        </>
-       )
-     }
-     
+  return (
+    <>
+      <Navbar />
+      <div className="pt-[100px]">   {/* padding-top عشان يسيب مساحة للناف بار */}
+        <About />
+        <Footer />
+      </div>
+    </>
+  )
+}
 
 export default Aboutus
