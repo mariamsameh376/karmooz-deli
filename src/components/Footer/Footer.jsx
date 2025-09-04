@@ -43,8 +43,8 @@ const Footer = () => {
         <div className="flex flex-col items-center justify-center text-center relative group">
           <div className="absolute -inset-4 bg-[#F9B93E]/10 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           <img src="/logo.png" alt="Karmooz Deli Logo" className="w-60 object-contain mb-1 hover:rotate-3 transition" />
-          <h3 className="text-3xl text-[#221101] font-[Impact] tracking-wide">KARMOOZ</h3>
-          <p className="text-xl text-[#221101] font-[Montserrat] -mt-1 tracking-wide">DELI</p>
+          <h3 className="text-5xl -mt-3 text-[#221101] font-[Impact]  tracking-wide">KARMOOZ</h3>
+          <p className="text-3xl text-[#221101] font-[Montserrat] -mt-1 tracking-wide">DELI</p>
 
         </div>
 

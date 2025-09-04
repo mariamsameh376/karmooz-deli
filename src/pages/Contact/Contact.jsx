@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <div className="pt-[100px]">   {/* padding-top عشان يسيب مساحة للناف بار */}
+      <div className="pt-[80px]">   {/* padding-top عشان يسيب مساحة للناف بار */}
         <ContactComponent />
         <Footer />
       </div>

@@ -7,7 +7,7 @@ const Menu = () => {
   return (
     <>
       <Navbar />
-      <div className="pt-[100px]">  {/* عشان المحتوى ما يختفيش تحت الناف بار */}
+      <div className="pt-[80px]">  {/* عشان المحتوى ما يختفيش تحت الناف بار */}
         <MenuDate />
         <Footer />
       </div>
