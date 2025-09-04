@@ -38,7 +38,7 @@ export default function OrderType() {
         <div className="w-full md:w-1/2 h-80 md:h-auto">
           <iframe
             title="Restaurant Location"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1610.5968563079505!2d-86.8011039!3d36.1618405!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886467674f9e6a91%3A0x9ed36a27636760ad!2sMidtown%20Foods!5e0!3m2!1sar!2seg!4v1754522639708!5m2!1sar!2segg&hl=en"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3221.1938153400642!2d-86.802389!3d36.161838!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886467674f9e6a91%3A0x9ed36a27636760ad!2sMidtown%20Foods!5e0!3m2!1sar!2sus!4v1756986028582!5m2!1sar!2sus"
             width="100%"
             height="100%"
             style={{ border: 0 }}
@@ -54,7 +54,7 @@ export default function OrderType() {
             <p className="text-gray-600 mb-6">Choose how you’d like to get your food.</p>
 
             <a
-  href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3221.1938153400642!2d-86.802389!3d36.161838!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886467674f9e6a91%3A0x9ed36a27636760ad!2sMidtown%20Foods!5e0!3m2!1sar!2sus!4v1756986028582!5m2!1sar!2sus
+  href="https://midtownfoodsnsh.com/s/karmooz-deli/614-18th-ave-n-nashville/a2d2b0a6-e684-4ff1-91bb-ee960dde2143
 "
   target="_blank"     // يفتح في تبويب جديد
   rel="noopener noreferrer"
