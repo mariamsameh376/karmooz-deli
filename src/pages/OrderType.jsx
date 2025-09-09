@@ -42,6 +42,7 @@ export default function OrderType() {
             width="100%"
             height="100%"
             style={{ border: 0 }}
+            referrerpolicy="no-referrer-when-downgrade"
             allowFullScreen=""
             loading="lazy"
           ></iframe>
